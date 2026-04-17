@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "e0dc40c031a0ad66",
+    "type": "split",
+    "children": [
+      {
+        "id": "e56c70ae83539cfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a553f7108e0d0a5c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dea716878eb1ceb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a9b32d43167fbc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c56a1c9e2a95bb65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "35dcbdb45ab9e7f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c31ddd7b7e462260",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b77bbfebfffd5c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "841ba44885bb2791",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ff618da75fbdfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/comparisons/mha-vs-mqa-vs-gqa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "mha-vs-mqa-vs-gqa 的反向链接列表"
+            }
+          },
+          {
+            "id": "b8e465a18e7d020c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/comparisons/mha-vs-mqa-vs-gqa.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "mha-vs-mqa-vs-gqa 的出链列表"
+            }
+          },
+          {
+            "id": "102f3f9f00df163b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f30b79fed38f446d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "8e4c71718e99932a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/comparisons/mha-vs-mqa-vs-gqa.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "mha-vs-mqa-vs-gqa 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "c56a1c9e2a95bb65",
+  "lastOpenFiles": [
+    "未命名.base",
+    "wiki/concepts/architecture/attention-variants.md",
+    "wiki/sources/extra01-llm-interview-reference.md",
+    "wiki/concepts/architecture/transformer.md",
+    "wiki/index.md"
+  ]
+}
