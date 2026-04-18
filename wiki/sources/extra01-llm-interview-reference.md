@@ -71,32 +71,32 @@ status: active
 
 ### 第5章: RAG (12题)
 
-| 编号 | 主题 | 频率 | 概念页 |
-|------|------|------|--------|
-| 5.1 | RAG 工作原理与优势 | 🔥高 | [[concepts/application/rag-overview]] |
-| 5.2 | RAG 完整流水线 | 🔥高 | [[concepts/application/rag-pipeline]] |
-| 5.3 | 文本切块策略 | 🔥高 | [[concepts/application/rag-pipeline]] |
-| 5.4 | 嵌入模型选择 | 🟡中 | [[concepts/application/embedding-models]] |
-| 5.5 | 检索增强技术 | 🔥高 | [[concepts/application/retrieval-enhancement]] |
-| 5.6 | Lost in the Middle | 🔥高 | [[concepts/application/retrieval-enhancement]] |
-| 5.7 | RAG 评估 | 🟡中 | [[concepts/application/rag-eval]] |
-| 5.8 | 知识图谱增强 | 🟡中 | [[concepts/application/advanced-rag]] |
-| 5.9 | 高级 RAG 范式 | 🟡中 | [[concepts/application/advanced-rag]] |
-| 5.10 | RAG 部署挑战 | 🟡中 | [[concepts/application/rag-pipeline]] |
-| 5.11 | 搜索系统 vs RAG | 🔥高 | [[concepts/application/rag-overview]] |
-| 5.12 | 开源 RAG 框架 | 🟡中 | [[concepts/application/advanced-rag]] |
+| 编号   | 主题                 | 频率  | 概念页                                            |
+| ---- | ------------------ | --- | ---------------------------------------------- |
+| 5.1  | RAG 工作原理与优势        | 🔥高 | [[concepts/application/rag-overview]]          |
+| 5.2  | RAG 完整流水线          | 🔥高 | [[concepts/application/rag-pipeline]]          |
+| 5.3  | 文本切块策略             | 🔥高 | [[concepts/application/rag-pipeline]]          |
+| 5.4  | 嵌入模型选择             | 🟡中 | [[concepts/application/embedding-models]]      |
+| 5.5  | 检索增强技术             | 🔥高 | [[concepts/application/retrieval-enhancement]] |
+| 5.6  | Lost in the Middle | 🔥高 | [[concepts/application/retrieval-enhancement]] |
+| 5.7  | RAG 评估             | 🟡中 | [[concepts/application/rag-eval]]              |
+| 5.8  | 知识图谱增强             | 🟡中 | [[concepts/application/advanced-rag]]          |
+| 5.9  | 高级 RAG 范式          | 🟡中 | [[concepts/application/advanced-rag]]          |
+| 5.10 | RAG 部署挑战           | 🟡中 | [[concepts/application/rag-pipeline]]          |
+| 5.11 | 搜索系统 vs RAG        | 🔥高 | [[concepts/application/rag-overview]]          |
+| 5.12 | 开源 RAG 框架          | 🟡中 | [[concepts/application/advanced-rag]]          |
 
 ### 第6章: 模型评估与 Agent 评估 (10题)
 
-| 编号 | 主题 | 频率 | 概念页 |
-|------|------|------|--------|
-| 6.1 | BLEU/ROUGE 局限性 | 🔥高 | [[concepts/evaluation/eval-metrics]] |
-| 6.2 | LLM 综合基准 | 🔥高 | [[concepts/evaluation/eval-metrics]] |
-| 6.3 | LLM-as-a-Judge | 🔥高 | [[concepts/evaluation/llm-as-judge]] |
-| 6.4 | 专项能力评估 | 🟡中 | [[concepts/evaluation/llm-as-judge]] |
-| 6.5 | Agent 评估难点 | 🟡中 | [[concepts/evaluation/agent-eval]] |
-| 6.6 | Agent 基准测试 | 🟡中 | [[concepts/evaluation/agent-eval]] |
-| 6.7 | 过程指标 | 🟡中 | [[concepts/evaluation/agent-eval]] |
-| 6.8 | 红队测试 | 🟡中 | [[concepts/evaluation/red-teaming]] |
-| 6.9 | 人工评估设计 | 🟡中 | [[concepts/evaluation/red-teaming]] |
-| 6.10 | 持续监控 | 🟡中 | [[concepts/evaluation/red-teaming]] |
+| 编号   | 主题             | 频率  | 概念页                                  |
+| ---- | -------------- | --- | ------------------------------------ |
+| 6.1  | BLEU/ROUGE 局限性 | 🔥高 | [[concepts/evaluation/eval-metrics]] |
+| 6.2  | LLM 综合基准       | 🔥高 | [[concepts/evaluation/eval-metrics]] |
+| 6.3  | LLM-as-a-Judge | 🔥高 | [[concepts/evaluation/llm-as-judge]] |
+| 6.4  | 专项能力评估         | 🟡中 | [[concepts/evaluation/llm-as-judge]] |
+| 6.5  | Agent 评估难点     | 🟡中 | [[concepts/evaluation/agent-eval]]   |
+| 6.6  | Agent 基准测试     | 🟡中 | [[concepts/evaluation/agent-eval]]   |
+| 6.7  | 过程指标           | 🟡中 | [[concepts/evaluation/agent-eval]]   |
+| 6.8  | 红队测试           | 🟡中 | [[concepts/evaluation/red-teaming]]  |
+| 6.9  | 人工评估设计         | 🟡中 | [[concepts/evaluation/red-teaming]]  |
+| 6.10 | 持续监控           | 🟡中 | [[concepts/evaluation/red-teaming]]  |
