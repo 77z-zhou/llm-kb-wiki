@@ -19,13 +19,13 @@ interview_difficulty: easy
 
 ## L1 正则化 (Lasso)
 
-- `Loss_L1 = Original Loss + λ·Σ|w_i|`
+- $\mathcal{L}_{L1} = \mathcal{L}_{\text{original}} + \lambda \sum |w_i|$
 - **效果**：权重稀疏化，部分权重变为精确 0
 - **适用**：特征选择，当存在大量冗余特征时
 
 ## L2 正则化 (Ridge / Weight Decay)
 
-- `Loss_L2 = Original Loss + λ·Σw_i²`
+- $\mathcal{L}_{L2} = \mathcal{L}_{\text{original}} + \lambda \sum w_i^2$
 - **效果**：权重趋近于 0 但不为 0，分布更平滑
 - **适用**：通用过拟合防治，深度学习中最常用
 

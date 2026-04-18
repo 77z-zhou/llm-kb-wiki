@@ -19,7 +19,7 @@ interview_difficulty: medium
 
 ## GeLU (Gaussian Error Linear Unit)
 
-- `GeLU(x) = x · Φ(x)`，Φ(x) 是高斯 CDF
+- $\text{GeLU}(x) = x \cdot \Phi(x)$，$\Phi(x)$ 是高斯 CDF
 - 是 ReLU 的平滑近似，梯度更稳定
 - **代表模型**：BERT, GPT-2
 - **思想**：根据输入大小确定性地"保留或归零"
@@ -27,7 +27,7 @@ interview_difficulty: medium
 ## SwiGLU (当前主流)
 
 - 属于门控线性单元（GLU）家族
-- `SwiGLU(A, B) = Swish(A) ⊗ B`，其中 `Swish(x) = x · σ(x)`
+- $\text{SwiGLU}(A, B) = \text{Swish}(A) \otimes B$，其中 $\text{Swish}(x) = x \cdot \sigma(x)$
 - FFN 输入分为两部分：一部分经 Swish 激活，另一部分作为"门"
 - **代表模型**：Llama, PaLM, Mixtral, Gemma, Qwen
 
@@ -41,7 +41,7 @@ interview_difficulty: medium
 
 1. **面试常见追问**："SwiGLU 为什么比 GeLU 好？"——核心答案是**门控机制**，它让 FFN 能选择性地过滤信息，类似于 LSTM 的门控思想在 FFN 中的应用。
 
-2. **参数量的变化**：标准 FFN 是 `hidden→4h→hidden`，SwiGLU 通常是 `hidden→(8/3)h×2→hidden`（两个矩阵各 8/3·h），总参数量相当但结构不同。
+2. **参数量的变化**：标准 FFN 是 $\text{hidden} \to 4h \to \text{hidden}$，SwiGLU 通常是 $\text{hidden} \to \frac{8}{3}h \times 2 \to \text{hidden}$（两个矩阵各 $\frac{8}{3}h$），总参数量相当但结构不同。
 
 ---
 

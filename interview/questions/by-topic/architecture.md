@@ -15,7 +15,7 @@ question_count: 10
 ### Q1: 详细解释 Transformer 自注意力机制的工作原理，为什么比 RNN 更适合处理长序列？
 - **难度**: Medium
 - **概念页**: [[concepts/architecture/transformer]]
-- **要点**: Q/K/V 生成 → 点积 → 缩放 → Softmax → 加权求和；并行性 O(1) vs O(N) 长距离依赖
+- **要点**: Q/K/V 生成 → 点积 → 缩放 → Softmax → 加权求和；并行性 $O(1)$ vs $O(N)$ 长距离依赖
 
 ### Q2: 什么是位置编码？为什么必须？列举至少两种实现方式。
 - **难度**: Medium

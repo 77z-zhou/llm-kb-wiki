@@ -24,7 +24,7 @@ interview_difficulty: medium
 | **结构**       | N个Q头, N个K头, N个V头 | N个Q头, 1个K头, 1个V头 | N个Q头, G个K头, G个V头 |
 | **模型质量**     | 最高               | 可能下降             | 接近MHA，优于MQA      |
 | **推理效率**     | 最低（KV Cache大）    | 最高（KV Cache小）    | 居中，远好于MHA        |
-| **KV Cache** | ∝ N              | ∝ 1（减小N倍）        | ∝ G              |
+| **KV Cache** | $\propto N$              | $\propto 1$（减小N倍）        | $\propto G$              |
 | **代表模型**     | BERT, GPT-3      | PaLM             | Llama 2, Mixtral |
 
 ## MHA (Multi-Head Attention)
