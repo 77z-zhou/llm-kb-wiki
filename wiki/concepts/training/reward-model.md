@@ -36,17 +36,13 @@ interview_difficulty: hard
 
 ## 损失函数：Bradley-Terry 模型
 
-假设回答 $y_w$ 优于 $y_l$ 的概率：
+假设回答 y_w 优于 y_l 的概率：
 
-$$
-P(y_w > y_l \mid x) = \sigma\!\left(r(y_w \mid x) - r(y_l \mid x)\right)
-$$
+`P(y_w > y_l | x) = σ(r(y_w|x) - r(y_l|x))`
 
 损失函数（负对数似然）：
 
-$$
-\mathcal{L} = -\log\,\sigma\!\left(r(y_w \mid x) - r(y_l \mid x)\right)
-$$
+`Loss = -log(σ(r(y_w|x) - r(y_l|x)))`
 
 直觉：奖励分数差距越大，我们越确信一个比另一个好。
 

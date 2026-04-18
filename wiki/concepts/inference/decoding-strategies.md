@@ -43,7 +43,7 @@ interview_difficulty: medium
 
 ## 补充见解
 
-1. **temperature 的作用**：通常与 Top-P/Top-K 配合使用。$T < 1$ 使分布更尖锐（更确定），$T > 1$ 使分布更平坦（更随机）。面试中要能解释 temperature 和 Top-P 的协同效果。
+1. **temperature 的作用**：通常与 Top-P/Top-K 配合使用。T<1 使分布更尖锐（更确定），T>1 使分布更平坦（更随机）。面试中要能解释 temperature 和 Top-P 的协同效果。
 
 2. **实际应用中的组合**：大多数 LLM API 同时支持 temperature + Top-P + Top-K，三者叠加使用。理解它们各自的作用和交互非常重要。
 

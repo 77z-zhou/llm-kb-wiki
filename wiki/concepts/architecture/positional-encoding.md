@@ -52,23 +52,17 @@ Self-Attention 属于后者。但两者的共同点是：**模型内部没有任
 
 ### 位置编码做了什么？
 
-给每个位置加上不同的"标记"：$x'[i] = x[i] + \text{PE}(i)$。这样同一个词"我"出现在位置 1 和位置 3 时变成不同的向量，模型就能区分语序了。
+给每个位置加上不同的"标记"：`x'[i] = x[i] + PE(i)`。这样同一个词"我"出现在位置 1 和位置 3 时变成不同的向量，模型就能区分语序了。
 
 ## 主要实现方式
 
 ### 1. 正弦/余弦位置编码 (Sinusoidal PE)
 
 原始 Transformer 论文方法：
+- `PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`
+- `PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))`
 
-$$
-\text{PE}(\text{pos}, 2i) = \sin\!\left(\frac{\text{pos}}{10000^{2i/d_{\text{model}}}}\right)
-$$
-
-$$
-\text{PE}(\text{pos}, 2i+1) = \cos\!\left(\frac{\text{pos}}{10000^{2i/d_{\text{model}}}}\right)
-$$
-
-**优点**：可外推到更长序列；$\text{PE}(\text{pos}+k)$ 可表示为 $\text{PE}(\text{pos})$ 的线性函数
+**优点**：可外推到更长序列；PE(pos+k) 可表示为 PE(pos) 的线性函数
 
 ### 2. 可学习绝对位置编码 (Learned Absolute PE)
 

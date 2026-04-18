@@ -33,7 +33,7 @@ total: 12
 - **来源**: [training](by-topic/training.md) Q1
 - **概念页**: [[concepts/training/scaling-laws]]
 - **要点**: 性能与 N/D/C 的幂律关系；Chinchilla 1:20 比例
-- **深度提示**: 能写出幂律公式 $L(N) \propto N^{-\alpha}$、解释计算最优 vs 数据最优边界
+- **深度提示**: 能写出幂律公式 L(N) ∝ N^{-α}、解释计算最优 vs 数据最优边界
 
 ### Q4: 训练百亿/千亿参数 LLM 面临哪些主要挑战？
 - **来源**: [training](by-topic/training.md) Q2
@@ -53,7 +53,7 @@ total: 12
 - **来源**: [rlhf](by-topic/rlhf.md) Q3
 - **概念页**: [[concepts/training/reward-model]]
 - **要点**: 同架构+回归头；Bradley-Terry 模型；负对数似然
-- **深度提示**: 能写出 BT 模型的 loss 公式 $P(y_w > y_l) = \sigma(r(x, y_w) - r(x, y_l))$
+- **深度提示**: 能写出 BT 模型的 loss 公式 P(y_w > y_l) = σ(r(x,y_w) - r(x,y_l))
 
 ### Q7: 为什么选 PPO？β 系数如何调参？
 - **来源**: [rlhf](by-topic/rlhf.md) Q4 + Q6
