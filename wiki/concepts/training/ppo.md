@@ -28,9 +28,9 @@ interview_difficulty: hard
 
 ## KL 散度惩罚项
 
-```
-Objective(π_RL) = E[Reward] - β · KL(π_RL || π_SFT)
-```
+$$
+\text{Objective}(\pi_{RL}) = \mathbb{E}[\text{Reward}] - \beta \cdot D_{KL}(\pi_{RL} \| \pi_{SFT})
+$$
 
 ### 两个关键作用
 

@@ -21,16 +21,16 @@ interview_difficulty: medium
 
 ### 工作原理（5步）
 
-1. **生成 Q, K, V 向量**：每个词元通过 W^Q, W^K, W^V 三个权重矩阵生成：
+1. **生成 Q, K, V 向量**：每个词元通过 $W^Q, W^K, W^V$ 三个权重矩阵生成：
    - **Query (Q)**: 当前词元的"查询意图"
    - **Key (K)**: 每个词元携带的"信息标签"
    - **Value (V)**: 每个词元的"实际内容"
 
 2. **计算注意力分数**：Q 与所有 K 的点积
-   - `Score(Q_i, K_j) = Q_i · K_j`
+   - $Score(Q_i, K_j) = Q_i \cdot K_j$
 
-3. **缩放**：除以 √d_k，防止点积过大导致 Softmax 进入饱和区
-   - `Scaled = Q·K^T / √d_k`
+3. **缩放**：除以 $\sqrt{d_k}$，防止点积过大导致 Softmax 进入饱和区
+   - $Scaled = Q \cdot K^T / \sqrt{d_k}$
 
 4. **Softmax 归一化**：转为概率分布（注意力权重）
 

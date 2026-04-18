@@ -59,8 +59,12 @@ Self-Attention 属于后者。但两者的共同点是：**模型内部没有任
 ### 1. 正弦/余弦位置编码 (Sinusoidal PE)
 
 原始 Transformer 论文方法：
-- `PE(pos, 2i) = sin(pos / 10000^(2i/d_model))`
-- `PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))`
+$$
+PE_{(pos, 2i)} = \sin\!\left(\frac{pos}{10000^{2i/d_{\text{model}}}}\right)
+$$
+$$
+PE_{(pos, 2i+1)} = \cos\!\left(\frac{pos}{10000^{2i/d_{\text{model}}}}\right)
+$$
 
 **优点**：可外推到更长序列；PE(pos+k) 可表示为 PE(pos) 的线性函数
 
