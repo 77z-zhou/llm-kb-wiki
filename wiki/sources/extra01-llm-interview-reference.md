@@ -21,24 +21,24 @@ status: active
 
 ### 第1章: LLM 八股 (16题)
 
-| 编号 | 主题 | 频率 | 概念页 |
-|------|------|------|--------|
-| 1.1 | 自注意力机制 | 🔥高 | [[concepts/architecture/transformer]] |
-| 1.2 | 位置编码 | 🔥高 | [[concepts/architecture/positional-encoding]] |
-| 1.3 | RoPE | 🔥高 | [[concepts/architecture/rope]] |
-| 1.4 | MHA/MQA/GQA | 🔥高 | [[concepts/architecture/attention-variants]] |
-| 1.5 | LLM架构对比 | 🔥高 | [[concepts/architecture/llm-architectures]] |
-| 1.6 | Scaling Laws | 🔥高 | [[concepts/training/scaling-laws]] |
-| 1.7 | 解码策略 | 🟡中 | [[concepts/inference/decoding-strategies]] |
-| 1.8 | 词元化 | 🟡中 | [[concepts/architecture/tokenization]] |
-| 1.9 | NLP vs LLM | 🟡中 | — |
-| 1.10 | L1/L2正则化 | 🟢低 | [[concepts/training/regularization]] |
-| 1.11 | 涌现能力 | 🟡中 | [[concepts/architecture/emergent-abilities]] |
-| 1.12 | 激活函数 | 🟡中 | [[concepts/architecture/activation-functions]] |
-| 1.13 | MoE | 🔥高 | [[concepts/architecture/moe]] |
-| 1.14 | 大规模训练挑战 | 🔥高 | [[concepts/training/large-scale-training]] |
-| 1.15 | 开源框架与模型 | 🟡中 | — |
-| 1.16 | 前沿论文 | 开放 | — |
+| 编号   | 主题           | 频率  | 概念页                                            |
+| ---- | ------------ | --- | ---------------------------------------------- |
+| 1.1  | 自注意力机制       | 🔥高 | [[concepts/architecture/transformer]]          |
+| 1.2  | 位置编码         | 🔥高 | [[concepts/architecture/positional-encoding]]  |
+| 1.3  | RoPE         | 🔥高 | [[concepts/architecture/rope]]                 |
+| 1.4  | MHA/MQA/GQA  | 🔥高 | [[concepts/architecture/attention-variants]]   |
+| 1.5  | LLM架构对比      | 🔥高 | [[concepts/architecture/llm-architectures]]    |
+| 1.6  | Scaling Laws | 🔥高 | [[concepts/training/scaling-laws]]             |
+| 1.7  | 解码策略         | 🟡中 | [[concepts/inference/decoding-strategies]]     |
+| 1.8  | 词元化          | 🟡中 | [[concepts/architecture/tokenization]]         |
+| 1.9  | NLP vs LLM   | 🟡中 | —                                              |
+| 1.10 | L1/L2正则化     | 🟢低 | [[concepts/training/regularization]]           |
+| 1.11 | 涌现能力         | 🟡中 | [[concepts/architecture/emergent-abilities]]   |
+| 1.12 | 激活函数         | 🟡中 | [[concepts/architecture/activation-functions]] |
+| 1.13 | MoE          | 🔥高 | [[concepts/architecture/moe]]                  |
+| 1.14 | 大规模训练挑战      | 🔥高 | [[concepts/training/large-scale-training]]     |
+| 1.15 | 开源框架与模型      | 🟡中 | —                                              |
+| 1.16 | 前沿论文         | 开放  | —                                              |
 
 ### 第3章: RLHF 八股 (6题)
 
